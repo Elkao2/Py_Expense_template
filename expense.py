@@ -40,7 +40,6 @@ def get_involved_user(spender):
     },
     ]
     infos = prompt(get_involved)
-    print(infos)
     return infos.get("involved")
 
 
